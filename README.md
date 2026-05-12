@@ -1,4 +1,4 @@
-# Systemd Disck use checker 
+# Systemd Disk use checker 
 
 ## Co zrobiłem
 
@@ -16,5 +16,5 @@ dane. Skrypt wykonuje sie automatycznie co 30 minut i zapisuje stan do d_check.l
 | `systemctl daemon-reload` | przeładowanie systemd |
 | `systemctl start d_check` | uruchomienie serwisu |
 | `systemctl enable d_check` | serwis uruchomi sie automatycznie po starcie serwera |
-| `journalctl -u myservice -f` | sledzenie logow serwisu na zywo |
+| `journalctl -u d_check -f` | sledzenie logow serwisu na zywo |
 
