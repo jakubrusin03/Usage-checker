@@ -1,0 +1,10 @@
+[Unit]
+Description=Skrypt do monitorowania stanu wykorzystania dysku
+
+[Service]
+ExecStart=/usr/local/bin/d_check.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
